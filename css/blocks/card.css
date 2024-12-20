@@ -1,0 +1,112 @@
+.content1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 30px;
+    margin-bottom: 80px;
+}
+.content__card{
+    display: flex;
+    column-gap: 30px;
+    margin-bottom: 80px;
+}
+.section__title1{
+    width: calc(65% - 30px);
+}
+.section__descr1{
+    width: calc(35% - 30px);
+    display: flex;
+    align-items: center;
+}
+.cards_block{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30px;
+}
+.cards{
+    width: 350px;
+    height: 350px;
+    border-radius: 12px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+.cards:hover{
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.04);
+}
+.cards_item{
+    width: 220px;
+    height: 176px;
+    margin: 63px 65px;
+
+}
+.card_pic{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+.card_title{ 
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1;
+    text-align: center;
+    color:var(--color_text_main);
+    margin-bottom: 12px;
+    
+}
+.card_descr{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.64px;
+    text-align: center;
+    color:var(--color_text_gray)
+}
+.phonelink{
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(255, 189, 116, 0.05);
+    border-radius: 50%;
+}
+.cloud{
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(226, 89, 139, 0.05);
+    border-radius: 50%;
+}
+.backpack{
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(77, 18, 238, 0.05);
+    border-radius: 50%;
+}
+.card_link{
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+.card_link_item:hover{
+    background-color: var(--color-accent);
+    width: 35px;
+    height: 35px;
+}
+
+.card_link_item{
+    display: block;
+    width: 24px;
+    height: 24px;
+    mask-image:url(./arrow_card.svg);
+    mask-size: contain;
+    mask-position: center;
+    mask-repeat: no-repeat;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--color_text_main);
+}
